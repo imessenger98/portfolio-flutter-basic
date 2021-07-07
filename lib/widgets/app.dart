@@ -5,7 +5,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.teal[700],
+        backgroundColor: Colors.blue[900],
         body: SafeArea(
           child: ListView(
             children: [
