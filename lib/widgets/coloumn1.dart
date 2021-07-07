@@ -8,7 +8,7 @@ class Coloumn1 extends StatelessWidget {
       child: Center(
         child: Column(
           children: [
-            Center(
+            Container(
               child: CircleAvatar(
                 radius: 50,
               ),
