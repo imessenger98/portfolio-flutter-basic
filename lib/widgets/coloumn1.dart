@@ -32,7 +32,6 @@ class Coloumn1 extends StatelessWidget {
                     fontWeight: FontWeight.w400,
                     fontSize: 16,
                     letterSpacing: 1.2,
-                    // fontStyle: FontStyle.italic
                   )),
             )
           ],
