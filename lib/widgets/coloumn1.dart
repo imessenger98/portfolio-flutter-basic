@@ -27,21 +27,24 @@ class Coloumn1 extends StatelessWidget {
             ),
             Container(
               padding: EdgeInsets.only(top: 20),
-              child: Text("MUHAMMED YAZEEN AN",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                      letterSpacing: 4,
-                      fontFamily: "Wallpoet-Regular")),
+              child: Text(
+                "MUHAMMED YAZEEN AN",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  letterSpacing: 4,
+                  fontFamily: "Wallpoet-Regular",
+                ),
+              ),
             ),
             Container(
               padding: EdgeInsets.only(top: 10),
               child: Text(
                 "SOFTWARE DEVELOPER",
                 style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w400,
-                  fontSize: 14,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.w900,
+                  fontSize: 15,
                   letterSpacing: 1.5,
                 ),
               ),
@@ -57,7 +60,7 @@ class Coloumn1 extends StatelessWidget {
                     size: 20,
                   ),
                   Text(
-                    " muhammedyazeenan.live",
+                    "  muhammedyazeenan.live",
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w400,
