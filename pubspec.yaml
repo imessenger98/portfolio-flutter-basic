@@ -46,6 +46,7 @@ flutter:
 
   assets:
     - images/yazeenan.jpg
+    - images/mydes.png
     # - images/a_dot_ham.jpeg
 
   fonts:
