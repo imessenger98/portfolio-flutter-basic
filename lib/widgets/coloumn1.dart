@@ -21,7 +21,7 @@ class Coloumn1 extends StatelessWidget {
           children: [
             Container(
               child: CircleAvatar(
-                radius: 100,
+                radius: 90,
                 backgroundImage: AssetImage('images/yazeenan.jpg'),
               ),
             ),
@@ -30,10 +30,9 @@ class Coloumn1 extends StatelessWidget {
               child: Text("MUHAMMED YAZEEN AN",
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w600,
-                      fontSize: 20,
+                      fontSize: 18,
                       letterSpacing: 4,
-                      fontFamily: "FrederickatheGreat-Regular")),
+                      fontFamily: "Wallpoet-Regular")),
             ),
             Container(
               padding: EdgeInsets.only(top: 10),
@@ -42,8 +41,8 @@ class Coloumn1 extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.w400,
-                  fontSize: 16,
-                  letterSpacing: 2,
+                  fontSize: 14,
+                  letterSpacing: 1.5,
                 ),
               ),
             ),

@@ -53,4 +53,8 @@ flutter:
     - family: FrederickatheGreat-Regular
       fonts:
         - asset: fonts/FrederickatheGreat-Regular.ttf
-        # - asset: fonts/Raleway-Italic.ttf
+
+    - family: Wallpoet-Regular
+      fonts:
+        - asset: fonts/Wallpoet-Regular.ttf        
+
