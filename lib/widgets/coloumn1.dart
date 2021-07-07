@@ -18,11 +18,11 @@ class Coloumn1 extends StatelessWidget {
               padding: EdgeInsets.only(top: 10),
               child: Text("MUHAMMED YAZEEN AN",
                   style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w800,
-                    fontSize: 20,
-                    letterSpacing: 2,
-                  )),
+                      color: Colors.white,
+                      fontWeight: FontWeight.w600,
+                      fontSize: 20,
+                      letterSpacing: 4,
+                      fontFamily: "FrederickatheGreat-Regular")),
             ),
             Container(
               padding: EdgeInsets.only(top: 10),
@@ -31,7 +31,7 @@ class Coloumn1 extends StatelessWidget {
                     color: Colors.white,
                     fontWeight: FontWeight.w400,
                     fontSize: 16,
-                    letterSpacing: 1.2,
+                    letterSpacing: 2,
                   )),
             )
           ],
