@@ -7,6 +7,8 @@ class Coloumn1 extends StatelessWidget {
       margin: EdgeInsets.all(10),
       child: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
               child: CircleAvatar(
@@ -26,13 +28,37 @@ class Coloumn1 extends StatelessWidget {
             ),
             Container(
               padding: EdgeInsets.only(top: 10),
-              child: Text("SOFTWARE DEVELOPER",
-                  style: TextStyle(
+              child: Text(
+                "SOFTWARE DEVELOPER",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.w400,
+                  fontSize: 16,
+                  letterSpacing: 2,
+                ),
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.only(top: 10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    Icons.personal_video,
                     color: Colors.white,
-                    fontWeight: FontWeight.w400,
-                    fontSize: 16,
-                    letterSpacing: 2,
-                  )),
+                    size: 20,
+                  ),
+                  Text(
+                    " muhammedyazeenan.live",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w400,
+                      fontSize: 15,
+                      letterSpacing: 2,
+                    ),
+                  )
+                ],
+              ),
             )
           ],
         ),
