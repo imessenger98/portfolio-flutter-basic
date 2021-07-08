@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/container1bottombuttons.dart';
 import 'coloumn1buttons.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Coloumn1 extends StatelessWidget {
   @override
@@ -61,23 +62,32 @@ class Coloumn1 extends StatelessWidget {
                     color: Colors.white,
                     size: 20,
                   ),
-                  Text(
-                    "  muhammedyazeenan.live",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w400,
-                      fontSize: 15,
-                      letterSpacing: 2,
+                  TextButton(
+                    onPressed: () {
+                      _launchURL(n);
+                    },
+                    child: Text(
+                      "  muhammedyazeenan.live",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w400,
+                        fontSize: 15,
+                        letterSpacing: 2,
+                      ),
                     ),
                   ),
                 ],
               ),
             ),
             ColoumnButton(),
-            BottomButton(),
+            BottomButton()
           ],
         ),
       ),
     );
   }
 }
+
+var n = "http://muhammedyazeenan.live/";
+void _launchURL(n) async =>
+    await canLaunch(n) ? await launch(n) : throw 'Could not launch $n';

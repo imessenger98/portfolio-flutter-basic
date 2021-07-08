@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class ColoumnButton extends StatelessWidget {
+  var github = "https://github.com/messenger-1012";
+  var instagram = "http://instagram.com/messenger_1012";
+  var mail = "mailto:muhammedyazeenan.com";
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -16,7 +21,9 @@ class ColoumnButton extends StatelessWidget {
                 width: 40,
                 height: 40,
               ),
-              onPressed: () {},
+              onPressed: () {
+                _launchURL(github);
+              },
             ),
           ),
           Container(
@@ -26,7 +33,9 @@ class ColoumnButton extends StatelessWidget {
                 width: 40,
                 height: 40,
               ),
-              onPressed: () {},
+              onPressed: () {
+                _launchURL(instagram);
+              },
             ),
           ),
           Container(
@@ -36,7 +45,9 @@ class ColoumnButton extends StatelessWidget {
                 width: 40,
                 height: 40,
               ),
-              onPressed: () {},
+              onPressed: () {
+                _launchURL(mail);
+              },
             ),
           ),
         ],
@@ -44,3 +55,7 @@ class ColoumnButton extends StatelessWidget {
     );
   }
 }
+
+var web = "muhammedyazeenan.live";
+void _launchURL(n) async =>
+    await canLaunch(n) ? await launch(n) : throw 'Could not launch $n';
