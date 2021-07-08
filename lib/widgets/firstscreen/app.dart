@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/widgets/coloumn1.dart';
+import 'package:portfolio/widgets/firstscreen/coloumn1.dart';
 
 class MyApp extends StatelessWidget {
   @override
