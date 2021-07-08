@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/widgets/container1bottombuttons.dart';
+import 'coloumn1buttons.dart';
 
 class Coloumn1 extends StatelessWidget {
   @override
@@ -42,9 +44,9 @@ class Coloumn1 extends StatelessWidget {
               child: Text(
                 "SOFTWARE DEVELOPER",
                 style: TextStyle(
-                  color: Colors.grey,
+                  color: Colors.red[900],
                   fontWeight: FontWeight.w900,
-                  fontSize: 15,
+                  fontSize: 12,
                   letterSpacing: 1.5,
                 ),
               ),
@@ -67,10 +69,12 @@ class Coloumn1 extends StatelessWidget {
                       fontSize: 15,
                       letterSpacing: 2,
                     ),
-                  )
+                  ),
                 ],
               ),
-            )
+            ),
+            ColoumnButton(),
+            BottomButton(),
           ],
         ),
       ),
