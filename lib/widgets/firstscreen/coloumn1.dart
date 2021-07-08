@@ -25,8 +25,9 @@ class Coloumn1 extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
-                  padding: EdgeInsets.only(top:10),
+                  padding: EdgeInsets.only(top: 10),
                   child: CircleAvatar(
+                    backgroundColor: Colors.black,
                     radius: 90,
                     backgroundImage: AssetImage('images/yazeenan.jpg'),
                   ),
