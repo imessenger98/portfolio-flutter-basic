@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/widgets/secondscreen/aboutme.dart';
+import 'package:portfolio/underdevelop.dart';
 
 class SecondScreen extends StatelessWidget {
   @override
@@ -16,7 +16,7 @@ class SecondScreen extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
-          child: Center(child: AboutMe()),
+          child: Center(child: UnderCon()),
         ),
       ),
     );
