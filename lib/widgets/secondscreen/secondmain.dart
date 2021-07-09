@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/underdevelop.dart';
 
 class SecondScreen extends StatelessWidget {
   @override
@@ -7,13 +8,9 @@ class SecondScreen extends StatelessWidget {
       body: SafeArea(
           child: Container(
         decoration: BoxDecoration(
-          color: Colors.black12,
           image: DecorationImage(
             image: AssetImage("images/mydes.png"),
-            // colorFilter: ColorFilter.mode(
-            //   Colors.black.withOpacity(0.8),
-            //   BlendMode.dstATop,
-            // ),
+            colorFilter: ColorFilter.mode(Colors.black, BlendMode.dstATop),
             fit: BoxFit.cover,
           ),
         ),
@@ -23,15 +20,7 @@ class SecondScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Center(
-              child: Text(
-                "page under developement",
-                style: TextStyle(
-                  letterSpacing: 2,
-                  fontSize: 20,
-                ),
-              ),
-            )
+            UnderCon(),
           ],
         ),
       )),
