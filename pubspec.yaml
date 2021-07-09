@@ -76,5 +76,8 @@ flutter:
 
     - family: Wallpoet-Regular
       fonts:
-        - asset: fonts/Wallpoet-Regular.ttf        
+        - asset: fonts/Wallpoet-Regular.ttf  
 
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono.ttf
