@@ -20,6 +20,9 @@ class BottomButton extends StatelessWidget {
             color: Colors.white,
             size: 30,
           ),
+          style: ButtonStyle(
+            padding: MaterialStateProperty.all<EdgeInsets>(EdgeInsets.all(0)),
+          ),
         ),
       ),
     );

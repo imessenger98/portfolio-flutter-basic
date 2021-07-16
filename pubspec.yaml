@@ -57,7 +57,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/yazeenan.jpg
+    - images/
     - images/mydes.png
     - icons/github.png
     - icons/instagram.png
@@ -65,6 +65,7 @@ flutter:
     - icons/facebook.png
     - icons/arrow.png
     - images/
+    - icons/phone.png
 
 
     # - images/a_dot_ham.jpeg

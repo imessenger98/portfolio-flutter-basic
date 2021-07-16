@@ -29,7 +29,7 @@ class Coloumn1 extends StatelessWidget {
                   child: CircleAvatar(
                     backgroundColor: Colors.black,
                     radius: 90,
-                    backgroundImage: AssetImage('images/yazeenan.jpg'),
+                    backgroundImage: AssetImage('images/yazeenan.png'),
                   ),
                 ),
                 Container(
@@ -51,7 +51,7 @@ class Coloumn1 extends StatelessWidget {
                     style: TextStyle(
                       color: Colors.red[900],
                       fontWeight: FontWeight.w900,
-                      fontSize: 12,
+                      fontSize: 14,
                       letterSpacing: 1.5,
                     ),
                   ),
